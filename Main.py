@@ -1,8 +1,8 @@
 
 class Stack:
     def __init__(self, size):
-        self.lst = []
         self.size = size
+        self.lst = [None]*size
         self.top = -1
 
     def is_empty(self):
@@ -31,7 +31,6 @@ class Stack:
             t=self.lst[self.top]
             del self.lst[self.top]
             self.top-=1
-            return t
 
     def status(self):
         # Write code here

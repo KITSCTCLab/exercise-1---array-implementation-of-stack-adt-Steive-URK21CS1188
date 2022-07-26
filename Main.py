@@ -1,7 +1,7 @@
 
 class Stack:
     def __init__(self, size):
-        self.items = []
+        self.lst = []
         self.size = size
         self.top = -1
 

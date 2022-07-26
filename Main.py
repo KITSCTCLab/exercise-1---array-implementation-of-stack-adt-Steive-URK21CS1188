@@ -34,7 +34,7 @@ class Stack:
 
     def status(self):
         # Write code here
-         if not self.isEmpty():
+         if not self.is_empty():
             for i in range(0,self.top+1):
                 print(self.lst[i])
 
